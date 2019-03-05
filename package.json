@@ -1,0 +1,12 @@
+{
+  "name": "bugystatic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "leaflet-headless": "^0.2.6",
+    "leaflet-image": "^0.4.0"
+  }
+}
