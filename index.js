@@ -31,7 +31,7 @@ app.post("/", async (req, res) => {
     }
     //let marker = L.marker([3.4489114, -76.5545918]).addTo(map);
     var bounds = new L.LatLngBounds(latlngs);
-    map.fitBounds(bounds);
+    map.fitBounds(bounds, { padding: [50,50] });
     let polyline = L.polyline(latlngs).addTo(map);
 
     map.setSize(800, 600);
